@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="hide-btn">
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i></div>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-----Abou Us Content----->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Best e-commerce in South-East Asia</h1>
+          <p>We're passionate about delivering exceptional online shopping experiences. Founded with a vision to redefine the way you shop, we strive to provide you with a vast selection of high-quality products, curated with care to suit your diverse needs and preferences.
+          <br><br>
+          Our commitment to excellence extends beyond our products. We believe in the power of convenience and innovation, which is why we're constantly exploring new ways to enhance your journey. Whether you're seeking the latest tech gadgets, fashionable apparel, or home essentials, we're here to make your shopping experience seamless, enjoyable, and rewarding.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="style/pictures/about.jpg">
+        </div>
+
+      </div>
+    </section>
+
+  
+    <!-----Footer----->
+
+    <section class="footer">
+      <p>Let's stay in touch. Follow us on social media to be part of our journey.</p>
+      <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+   
+    <!--JS FOR MENU-->
+    <script>
+      
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu(){
+        navLinks.style.right ="0";
+      }
+      function hideMenu(){
+        navLinks.style.right ="-200px";
+      }
+
+    </script>
+
+  </body>
+</html>
