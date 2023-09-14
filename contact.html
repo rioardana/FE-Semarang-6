@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="hide-btn">
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i></div>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-----Contact Us----->
+     
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2982536145682!2d106.80688723039627!3d-6.224348831224632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1505c76d775%3A0xe8503eecf84be674!2sSudirman%20Central%20Business%20District!5e0!3m2!1sen!2sid!4v1694679586286!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br><br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.786367265381!2d103.83137987346284!3d1.3031679986844595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da197792440801%3A0x6cc194f7eb9ffc68!2sThe%20Great%20Room%20Ngee%20Ann%20City%20%7C%20Coworking%20Office%20%26%20Hot%20Desking!5e0!3m2!1sen!2sid!4v1694682749051!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+      <div class="row">
+        <div class="contact-col">
+          <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>Gedung Artha Graha, Jl. Jend. sudirman kav 52-53 No.Kav 52-53, RT.5/RW.3</h5>
+            <p>Senayan, Kebayoran Baru, South Jakarta City, Jakarta, Indonesia</p>
+            <br>
+            <h5>Orchard Rd, Level 22, Ngee Ann City Tower B</h5>
+            <p>Singapore</p>
+          </span>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>(+62) 123-4567</h5>
+            <h5>(+65) 124-6475</h5>
+            <p>9AM to 5AM</p>
+          </span>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <span>
+            <h5>infogeesix@gmail.com</h5>
+            <p>Email us for feedback and inquiries</p>
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-----Footer----->
+
+    <section class="footer">
+      <p>Let's stay in touch. Follow us on social media to be part of our journey.</p>
+      <div class="icons">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="app">
+        <p>Download Our App Now</p>
+        <a href="https://play.google.com/store/games" target="_blank"><img src="style/pictures/playstore.png"></a>
+        <a href="https://www.apple.com/id/app-store/" target="_blank"><img src="style/pictures/appstore.png"></a>
+      </div>
+    </section>
+
+    <!--JS FOR MENU-->
+    <script>
+      
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu(){
+        navLinks.style.right ="0";
+      }
+      function hideMenu(){
+        navLinks.style.right ="-200px";
+      }
+
+    </script>
+
+  </body>
+</html>
