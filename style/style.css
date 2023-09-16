@@ -15,9 +15,10 @@
 
 nav {
   display: block;
+  /* position: fixed; */
   padding: 2% 4%;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
 nav img{
@@ -79,7 +80,7 @@ nav img{
   color: white;
   font-weight: bold;
   border-style: none;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 12px 22px;
   position: relative;
   cursor: pointer;
@@ -177,7 +178,7 @@ nav .fa{
 .vision-col{
   flex-basis: 31%;
   background: rgb(255, 145, 0);
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 5%;
   padding:20px 12px;
   box-sizing: border-box;
@@ -188,11 +189,11 @@ nav .fa{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media(max-width: 700px){
+@media(max-width: 820px){
   .row{
     flex-direction: column;
   }
-}
+} 
 
 /*-----Headquarters-----*/
 
@@ -261,7 +262,7 @@ nav .fa{
   opacity: 1;
 }
 
-@media(max-width: 700px){
+@media(max-width: 820px){
   .row-hq{
     flex-direction: column;
   }
@@ -329,7 +330,7 @@ nav .fa{
   color: white;
   font-weight: bold;
   border-style: none;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 12px 24px;
   position: relative;
   cursor: pointer;
@@ -341,7 +342,7 @@ nav .fa{
   transition: 0.15s;
 }
 
-@media(max-width:700px){
+@media(max-width:820px){
   .cta h1{
     font-size: 13px;
   }
@@ -370,18 +371,18 @@ nav .fa{
   color: white;
 }
 
-@media(max-width:700px){
-  .footer p{
-    font-size: 13px;
-  }
-}
-
 .app p{
   margin-bottom: 20px;
 }
 
 .app img{
   width: 120px;
+}
+
+@media(max-width:820px){
+  .footer p{
+    font-size: 13px;
+  }
 }
 
 /*-----About Us-----*/
@@ -398,6 +399,7 @@ nav .fa{
 .sub-header h1{
   color: white;
   margin-top: 100px;
+  font-size: 30px;
 }
 
 .about-us{
@@ -418,6 +420,12 @@ nav .fa{
 
 .about-col img{
   width: 100%;
+}
+
+@media(max-width: 820px){
+  .sub-header h1{
+    margin-top: 150px;
+  }
 }
 
 /*-----Contact Us-----*/

@@ -14,7 +14,7 @@
     <section class="sub-header">
       <nav>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT US</a></li>
@@ -22,7 +22,7 @@
           </ul>
         </div>
         <div class="hide-btn">
-        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i></div>
+        <i class="fa fa-bars" onclick="showMenu()"></i></div>
       </nav>
       <h1>About Us</h1>
     </section>
@@ -62,18 +62,7 @@
     </section>
 
     <!--JS FOR MENU-->
-    <script>
-      
-      var navLinks = document.getElementById("navLinks")
-
-      function showMenu(){
-        navLinks.style.right ="0";
-      }
-      function hideMenu(){
-        navLinks.style.right ="-200px";
-      }
-
-    </script>
+    <script src="index.js"></script>
 
   </body>
 </html>
