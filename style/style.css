@@ -445,6 +445,8 @@ nav .fa{
   align-items: center;
   margin-bottom: 40px;
   padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
 }
 
 .contact-col div .fa{
@@ -462,4 +464,14 @@ nav .fa{
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 15px;
+  box-sizing: border-box;
 }
