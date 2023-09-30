@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
 
-![GeeSix Commerce Logo](./images/geesix.png)
+![GeeSix Commerce Logo](./style/pictures/geesix.png)
 
 # Geesix Commerce - Capstone Project
 Selamat datang di profil GitHub resmi capstone project Geesix Commerce. Ini adalah Capstone Project yang dikembangkan oleh Group 6 Section Semarang sebagai bagian dari program SIB bersama RevoU.
