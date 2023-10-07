@@ -767,3 +767,72 @@ nav .fa {
     padding-bottom: 20px;
   }
 }
+
+/*-----Feedback-----*/
+.feedback {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.feedback h1 { 
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.column {
+  padding: 25px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.fed-btn {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 47px;
+}
+
+/* for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .feedback {
+    width: 70%;
+  }
+
+  .feedback h1 {
+    font-size: 40px;
+  }
+
+  .column h3 {
+    font-size: 24px;
+  }
+
+  .column p {
+    font-size: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* for mobile */
+@media (max-width: 767px) {
+  .feedback {
+    width: 80%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}

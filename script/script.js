@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// Form Sending
+// POST Form Data
   const formCustomer = document.getElementById('formCustomer');
 
   formCustomer.addEventListener('submit', (e) => {
