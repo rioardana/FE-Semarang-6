@@ -50,13 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
     body: JSON.stringify(feedbackData)
   }).then( (res) =>{
     if(res.ok){
-      alert('Thank You For Your Feedback!')
+      alert('Thank You For Your Feedback!');
       name.value = '';
       email.value = '';
       subject.value = '';
       message.value = '';
     }else{
-      alert('Send Feedback Failed.')
+      alert('Send Feedback Failed.');
     }
   }).catch((error) => {
     alert(`Error message: ${error.message}`);
